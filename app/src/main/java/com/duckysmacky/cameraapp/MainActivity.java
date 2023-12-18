@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void switchCamera(View view) {
+    public void switchCamera(View view) { // Launches the camera part
         Intent cameraActivity = new Intent(this, CameraActivity.class);
         startActivity(cameraActivity);
     }

@@ -59,7 +59,7 @@ public class CameraActivity extends AppCompatActivity {
         flipCamera.setOnClickListener(new View.OnClickListener() { // Check for clicks and rotates camera accordingly
             @Override
             public void onClick(View view) {
-                if (cameraFacing == CameraSelector.LENS_FACING_BACK) {
+                if (cameraFacing == CameraSelector.LENS_FACING_BACK) { // Flip the camera visa versa
                     cameraFacing = CameraSelector.LENS_FACING_FRONT;
                 } else {
                     cameraFacing = CameraSelector.LENS_FACING_BACK;
